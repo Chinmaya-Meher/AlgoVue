@@ -1,0 +1,21 @@
+.barcontainer {
+  display: flex;
+  align-items: flex-end; /* Bars grow from bottom */
+  gap: 5px;
+  height: 300px; /* Container height */
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.bars {
+  width: 30px;        /* Width of each bar */
+  background: teal;   /* Bar color */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 4px 4px 0 0;
+  font-size: 14px;
+}
