@@ -1,70 +1,161 @@
-# Getting Started with Create React App
+# AlgoVue — Interactive DSA Visualizer & AI Tutor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AlgoVue is an interactive learning platform designed to help students understand **Data Structures and Algorithms** through **visual simulations and AI-powered explanations**.
 
-## Available Scripts
+Instead of memorizing algorithms, AlgoVue allows learners to **see algorithms in action** and understand the reasoning behind them step-by-step.
 
-In the project directory, you can run:
+The platform combines **algorithm visualization** with an **AI tutor (Jarvis)** to make learning DSA intuitive, structured, and engaging.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📊 Algorithm Visualization
 
-### `npm test`
+* Step-by-step visual simulation of algorithms
+* Helps users understand how algorithms operate internally
+* Makes abstract concepts easier to grasp
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🤖 Jarvis — AI DSA Tutor
 
-### `npm run build`
+* AI assistant dedicated to Data Structures and Algorithms
+* Explains concepts with:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * intuition
+  * examples
+  * time complexity
+  * space complexity
+* Encourages conceptual understanding instead of memorization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧠 Beginner-Friendly Learning
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Structured explanations
+* Simplified breakdown of complex algorithms
+* Useful for beginners and interview preparation
 
-### `npm run eject`
+### ⚡ Clean & Interactive UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Modern dark-themed interface
+* Smooth chat-based interaction with Jarvis
+* Real-time AI responses
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend
 
-## Learn More
+* React.js
+* JavaScript
+* CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Node.js
+* Express.js
 
-### Code Splitting
+### AI Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Groq API
+* LLaMA 3 Model
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🧩 How It Works
 
-### Making a Progressive Web App
+1. The user interacts with the **AlgoVue interface**.
+2. Algorithms are **visualized step-by-step** through interactive UI components.
+3. Users can ask **DSA questions to Jarvis**, the AI tutor.
+4. Jarvis responds with structured explanations including:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   * intuition
+   * examples
+   * time complexity
+   * space complexity
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⚙️ Getting Started
 
-### Deployment
+### 1️⃣ Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+git clone https://github.com/Chinmaya-Meher/AlgoVue.git
+cd AlgoVue
+```
 
-### `npm run build` fails to minify
+### 2️⃣ Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Frontend:
+
+```
+npm install
+```
+
+Backend:
+
+```
+cd src/backend
+npm install
+```
+
+### 3️⃣ Add Environment Variables
+
+Create a `.env` file inside the backend folder:
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+### 4️⃣ Run the backend server
+
+```
+node server.js
+```
+
+### 5️⃣ Run the frontend
+
+```
+npx parcel src/index.html
+```
+
+---
+
+## 🎯 Future Improvements
+
+* More algorithm visualizations
+* Step-by-step execution controls
+* Code execution environment
+* Personalized learning paths
+* Progress tracking
+* More AI-assisted explanations
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve AlgoVue:
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+---
+
+## ⭐ Support
+
+If you find this project useful:
+
+* ⭐ Star the repository
+* 🍴 Fork it
+* 🧠 Share it with others learning DSA
+
+---
+
+## 👨‍💻 Author
+
+**Chinmaya Meher**
+
+Passionate about building tools that make complex technical concepts easier to understand.
