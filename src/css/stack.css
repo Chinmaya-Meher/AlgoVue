@@ -152,7 +152,8 @@
 }
 
 .stack-stepbox {
-  height: 15rem;     /* 🔥 matches .stepbox */
+  min-height: 16rem;
+  max-height: 16rem;
   width: 100%;
   background-color: #1E1B2F;
   border-radius: 8px;
@@ -160,6 +161,8 @@
   color: #b0b3c0;
   font-size: 13px;
   overflow-y: auto;
+  margin-top: 15px;
+  box-sizing: border-box;
 }
 
 /* ---------- RIGHT PANEL ---------- */

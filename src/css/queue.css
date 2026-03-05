@@ -124,7 +124,8 @@
 }
 
 .queue-stepbox {
-  height: 15rem;
+  min-height: 15rem;
+  max-height: 15rem;
   width: 100%;
   background-color: #1E1B2F;
   border-radius: 8px;
@@ -132,9 +133,12 @@
   color: #b0b3c0;
   font-size: 13px;
   overflow-y: auto;
+  margin-top: 15px;
+  box-sizing: border-box;
 }
 .dequeue-stepbox {
-  height: 12rem;
+  min-height: 12rem;
+  max-height: 12rem;
   width: 100%;
   background-color: #1E1B2F;
   border-radius: 8px;
@@ -142,6 +146,8 @@
   color: #b0b3c0;
   font-size: 13px;
   overflow-y: auto;
+  margin-top: 15px;
+  box-sizing: border-box;
 }
 /* ---------- RIGHT PANEL ---------- */
 

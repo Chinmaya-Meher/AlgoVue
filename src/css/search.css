@@ -165,7 +165,8 @@
 }
 
 .target-stepbox {
-  height: 12rem;
+  min-height: 13.5rem;
+  max-height: 13.5rem;
   width: 100%;
   background-color: #1E1B2F;
   border-radius: 8px;
@@ -173,8 +174,9 @@
   color: #b0b3c0;
   font-size: 13px;
   overflow-y: auto;
+  margin-top: 15px;
+  box-sizing: border-box;
 }
-
 .search-bar-container {
   width: 100%;
   height: 100%;

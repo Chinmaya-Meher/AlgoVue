@@ -13,7 +13,7 @@ export default function Bars({ arr, animationState }) {
         {arr.map((item, index) => (
           <div className="bars" key={index}
             style={{
-                    height: `${item}px`,width:"60px",
+                    height: `${item*0.7}px`,width:"60px",
                     boxShadow:
                         activeIndices.includes(index)
                         ? action === "compare"
