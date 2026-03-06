@@ -21,7 +21,7 @@ const orignalArr=useRef([]);
   });
 
 const handleRandomArray= ()=>{
-  const randArr=Array.from({length:10},()=>
+  const randArr=Array.from({length:9},()=>
     Math.floor(Math.random()*500))
   setArr(randArr)
 }
