@@ -8,7 +8,7 @@ import bubbleSort from "../logics/bubblesortlogic";
 export default function Bubblesort(){
 
 
-const[arr,setArr]=useState([298,120,243,654,264,254,345,199,243,233])
+const[arr,setArr]=useState([298,120,243,264,254,345,199,243,233])
 const[input,setInput]=useState("");
 const[speed,setSpeed]=useState(3);
 const[isSorting,setIsSorting]=useState(false);

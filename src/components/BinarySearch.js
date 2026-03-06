@@ -4,7 +4,7 @@ import Searchingboxes from "../sorting/searchdisplay";
 import binarySearch from "../logics/binarysearchlogic";
 import BinarySearchboxes from "../sorting/binarysearchdisplay";
 export default function Binarysearch() {
-  const [arr, setArr] = useState([120, 190, 243, 254, 264, 298, 345, 465, 654]);
+  const [arr, setArr] = useState([120, 190, 243, 254, 264, 298, 345, 465]);
   const [animationState, setAnimationState] = useState({});
   const [target, setTarget] = useState("");
   const [input, setInput] = useState("");

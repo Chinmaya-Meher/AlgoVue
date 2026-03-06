@@ -8,7 +8,7 @@ import Searchingboxes from "../sorting/searchdisplay";
 import linearSearch from "../logics/linearsearchlogic";
 export default function Linearsearch()
 {
-    const [arr,setArr]=useState([298,120,243,654,264,254,465,345,190])
+    const [arr,setArr]=useState([298,120,243,264,254,465,345,190])
     const[animationState,setAnimationState]=useState({})
     const [target,setTarget]=useState(null)
     const[input,setInput]=useState("");
