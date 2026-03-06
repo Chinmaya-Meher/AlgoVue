@@ -26,6 +26,7 @@
   flex-direction: column;
   justify-content: flex-start;
   transition: all 0.3s ease;
+  overflow: hidden; 
 }
 
 .queue-page-left-innerbox:hover {
@@ -123,8 +124,7 @@
 }
 
 .queue-stepbox {
-  min-height: 15rem;
-  max-height: 15rem;
+  flex: 1;
   width: 100%;
   background-color: #1E1B2F;
   border-radius: 8px;
@@ -136,8 +136,7 @@
   box-sizing: border-box;
 }
 .dequeue-stepbox {
-  min-height: 12rem;
-  max-height: 12rem;
+    flex: 1;
   width: 100%;
   background-color: #1E1B2F;
   border-radius: 8px;

@@ -388,8 +388,7 @@ hr {
 }
 
 .stepbox {
-  min-height: 14.5rem;
-  max-height: 14.5rem;
+    flex: 1;
   width: 100%;
   background-color: #1E1B2F;
   border-radius: 8px;
