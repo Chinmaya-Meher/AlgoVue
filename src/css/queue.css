@@ -24,7 +24,7 @@
   border: 2px solid #201B3B;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   transition: all 0.3s ease;
 }
 
@@ -86,7 +86,7 @@
   font-weight: 500;
   font-size: 16px;
   height: 45px;
-  width: 200px;
+  width: 220px;
   transition: all 0.3s ease;
   margin-right: 10px;
   margin-top: 10px;

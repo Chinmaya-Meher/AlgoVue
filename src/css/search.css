@@ -22,7 +22,7 @@
   border: 2px solid #201B3B;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   transition: all 0.3s ease;
 }
 .searching-page-left-innerbox:hover {
