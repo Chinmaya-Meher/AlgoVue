@@ -22,7 +22,7 @@ export default function BinarySearchboxes({ arr, animationState }) {
             `}
             style={{
               width: "60px",
-              height: `${item}px`,
+              height: `${item*0.7}px`,
               boxShadow:
                 i === index
                   ? type === "checking"
